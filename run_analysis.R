@@ -33,18 +33,18 @@ data_test_clean <- data.frame(subject_test, activity, x_test)
 
 # then get training data
 # read subject_train.txt
-subject_train <- fread("subject_train.txt", header=F)
+subject_train <- fread("./UCI HAR Dataset/train/subject_train.txt", header=F)
 # set name for column within df subject_train
 names(subject_train)[1] <- 'subject'
 # read y_train.txt 
-y_train <- fread("y_train.txt", header=F)
+y_train <- fread("./UCI HAR Dataset/train/y_train.txt", header=F)
 # set name for column
 names(y_train)[1] <- 'activity_id'
 # use activity_labels for creating clearnames as values
 activity <- y_train %>% full_join(activity_labels, by = "activity_id") %>% select(activity)
 
 # read x_train.txt
-x_train <- fread("X_train.txt", header=F) 
+x_train <- fread("./UCI HAR Dataset/train/X_train.txt", header=F) 
 # create a vector of features-data frame in order to use it for naming the columns
 features_vector <- unlist(list(features$V2))
 # use the features_vector for naming the columns 
