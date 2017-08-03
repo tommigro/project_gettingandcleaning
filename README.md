@@ -11,4 +11,4 @@ This was achieved by the following steps:
 3. both temporary data frames have been appended using **rbind**.
 4. in order to select only the **mean and std variables** within the data set, the function match was chosen within the selection in order to select columns that contain text like "mean" and "std". 
 5. finally this subselected data set was **grouped by activity and subject** and thereafter **mean was calculated via summarize_all**
-6. function **write.table** was used to write the resulting data frame into the resulting tidy data text file .
+6. function **write.table** was used to write the resulting data frame into the resulting tidy data text file **tidy_data.txt**.
