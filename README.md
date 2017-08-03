@@ -1,6 +1,6 @@
-# project_gettingandcleaning
+# Coursera Getting and Cleaning Data Project
 
-## Data cleaning and tidying process 
+## Data cleaning and tidying process (how run_analysis.R works)
 
 The projects goal was to merge test and training data into one data set, adding a subject and activity column (using clear activity names) and name the many columns within the data sets.
 
