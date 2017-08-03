@@ -24,7 +24,7 @@ The data sets are distributed over several folders:
    
 ## Features (signals) within dataset (copied from features_info.txt)
    
-These features are used as columns names for both, the test as well as the train data (X_test, X_train) 
+**These features are used as columns names for both, the test as well as the train data (X_test, X_train)** 
    
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
@@ -46,7 +46,7 @@ These features are used as columns names for both, the test as well as the train
 
 The set of variables that were estimated from these signals are: 
 
-From these variables only the those of mean and std are kept for the tidy data set.
+**From these variables only the those of mean and std are kept for the tidy data set.**
 
 * mean(): Mean value
 * std(): Standard deviation
@@ -76,7 +76,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 ## Activities (copied from activity_labels.txt)
 
-This list can be used as lookup table for joining activity labels to the data.
+**This list has been used as lookup table for joining activity labels to the data.**
 
 * 1 WALKING
 * 2 WALKING_UPSTAIRS
