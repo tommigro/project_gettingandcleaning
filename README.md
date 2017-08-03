@@ -6,7 +6,7 @@ The projects goal was to merge test and training data into one data set, adding 
 
 This was achieved by the following steps:
 
-1. **loading data**: **features** and **activity labels**: activity labels file could be used as a lookup table for getting all activity labels. **features** contain the column names for the dataset. As a first temporary result, a new dataframe for the test data was created by appending subject codes, activity and the test data set.
+1. **loading data**: **features** and **activity labels**: activity labels file could be used as a lookup table for getting all activity labels (clear names). **features** contain the column names for the dataset. As a first temporary result, a new dataframe for the test data was created by appending subject codes, activity and the test data set.
 2. step 1 was repeated for the training data
 3. **merging data sets**: both temporary data frames have been appended using **rbind**.
 4. **selection**: in order to select only the **mean and std variables** within the data set, the function match was chosen within the selection in order to select columns that contain text like "mean" and "std". 
