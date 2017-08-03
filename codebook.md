@@ -10,7 +10,7 @@ The goal was to analyse and to learn about human activities.
 
 The data sets are distributed over several folders:
 
-UCI HAR Dataset
+### UCI HAR Dataset
   * activity_labels.txt (Information about the 6 used activities - used as clear names for the different activities within the later tidy data)
   * features.txt (the different variables that have been calculated - used as column names within the later tidy data)
     * test (folder with records concerning the test subjects)
